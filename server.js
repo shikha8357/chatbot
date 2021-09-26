@@ -60,7 +60,7 @@ users:getRoomUsers(user.room)
     
 });
 
-const Port=2000 || process.env.Port;
+const Port= process.env.PORT;
 server.listen(Port,(socket)=>{
     console.log(`server running on ${Port}`)
 })
